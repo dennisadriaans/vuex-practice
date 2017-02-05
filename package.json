@@ -1,0 +1,34 @@
+{
+  "name": "vue-office",
+  "version": "1.0.0",
+  "description": "Vue office application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dennis Adriaansen",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-runtime": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babelify": "^7.3.0",
+    "browserify": "^14.0.0",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.0.1",
+    "gulp-vueify": "0.0.3",
+    "gulp-watch": "^4.3.11",
+    "vinyl-source-stream": "^1.1.0",
+    "vueify-insert-css": "^1.0.0"
+  },
+  "dependencies": {
+    "vue": "^1.0.26",
+    "vuex": "^1.0.1"
+  }
+}
