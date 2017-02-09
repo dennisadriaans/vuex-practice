@@ -10,6 +10,7 @@
 
 <script>
     import { editNote } from '../vuex/actions'
+
     export default {
         vuex: {
             getters: {

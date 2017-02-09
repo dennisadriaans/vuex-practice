@@ -11364,9 +11364,9 @@ if (module.hot) {(function () {  module.hot.accept()
   hotAPI.install(require("vue"), true)
   if (!hotAPI.compatible) return
   if (!module.hot.data) {
-    hotAPI.createRecord("_v-f31596aa", module.exports)
+    hotAPI.createRecord("_v-b8ee50ec", module.exports)
   } else {
-    hotAPI.update("_v-f31596aa", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
+    hotAPI.update("_v-b8ee50ec", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
   }
 })()}
 },{"./Editor.vue":6,"./NotesList.vue":7,"./Toolbar.vue":8,"vue":3,"vue-hot-reload-api":2}],6:[function(require,module,exports){
@@ -11397,9 +11397,9 @@ if (module.hot) {(function () {  module.hot.accept()
   hotAPI.install(require("vue"), true)
   if (!hotAPI.compatible) return
   if (!module.hot.data) {
-    hotAPI.createRecord("_v-72e527d3", module.exports)
+    hotAPI.createRecord("_v-22fba494", module.exports)
   } else {
-    hotAPI.update("_v-72e527d3", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
+    hotAPI.update("_v-22fba494", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
   }
 })()}
 },{"../vuex/actions":10,"vue":3,"vue-hot-reload-api":2}],7:[function(require,module,exports){
@@ -11450,9 +11450,9 @@ if (module.hot) {(function () {  module.hot.accept()
   hotAPI.install(require("vue"), true)
   if (!hotAPI.compatible) return
   if (!module.hot.data) {
-    hotAPI.createRecord("_v-5749a909", module.exports)
+    hotAPI.createRecord("_v-3fad2eb0", module.exports)
   } else {
-    hotAPI.update("_v-5749a909", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
+    hotAPI.update("_v-3fad2eb0", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
   }
 })()}
 },{"../vuex/actions":10,"vue":3,"vue-hot-reload-api":2}],8:[function(require,module,exports){
@@ -11479,15 +11479,15 @@ exports.default = {
     }
 };
 if (module.exports.__esModule) module.exports = module.exports.default
-;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<div id=\"toolbar\">\n    <i @click=\"addNote\" class=\"glyphicon glyphicon-plus\"></i>\n    <i @click=\"toggleFavorite\" class=\"glyphicon glyphicon-star\" :class=\"{starred: activeNote.favorite}\"></i>\n    <i @click=\"deleteNote\" class=\"glyphicon glyphicon-remove\"></i>\n</div>\n"
+;(typeof module.exports === "function"? module.exports.options: module.exports).template = "\n<div id=\"toolbar\">\n    <i @click=\"addNote\">Add note</i>\n    <i @click=\"toggleFavorite\" :class=\"{starred: activeNote.favorite}\">Toggle Favorite</i>\n    <i @click=\"deleteNote\">Delete note</i>\n</div>\n"
 if (module.hot) {(function () {  module.hot.accept()
   var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
   if (!hotAPI.compatible) return
   if (!module.hot.data) {
-    hotAPI.createRecord("_v-d86cfff6", module.exports)
+    hotAPI.createRecord("_v-32fac938", module.exports)
   } else {
-    hotAPI.update("_v-d86cfff6", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
+    hotAPI.update("_v-32fac938", module.exports, (typeof module.exports === "function" ? module.exports.options : module.exports).template)
   }
 })()}
 },{"../vuex/actions":10,"vue":3,"vue-hot-reload-api":2}],9:[function(require,module,exports){

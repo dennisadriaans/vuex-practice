@@ -41,6 +41,7 @@
 
 <script>
     import { updateActiveNote } from '../vuex/actions'
+
     export default {
         data () {
             return {

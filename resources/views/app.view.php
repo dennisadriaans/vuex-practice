@@ -7,6 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>VueJS office</title>
 
+    <style>
+        #toolbar {
+            border: 2px solid red;
+        }
+    </style>
 </head>
 <body>
 
